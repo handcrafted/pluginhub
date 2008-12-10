@@ -12,6 +12,8 @@ class CreateUsers < ActiveRecord::Migration
       t.string :last_login_ip
       t.string :current_login_ip
       t.boolean :admin
+      t.string :email
+      t.string :password_reset_token
 
       t.timestamps
     end

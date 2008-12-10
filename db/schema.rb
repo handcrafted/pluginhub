@@ -47,6 +47,8 @@ ActiveRecord::Schema.define(:version => 20081210135259) do
     t.string   "last_login_ip"
     t.string   "current_login_ip"
     t.boolean  "admin"
+    t.string   "email"
+    t.string   "password_reset_token"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
