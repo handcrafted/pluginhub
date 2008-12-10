@@ -29,6 +29,7 @@ Rails::Initializer.run do |config|
   # config.gem "aws-s3", :lib => "aws/s3"
   config.gem 'rspec-rails', :lib => "spec/rails", :version => '1.1.11'
   config.gem 'rspec', :lib => "spec", :version => '1.1.11'
+  config.gem "thoughtbot-factory_girl", :lib => "factory_girl", :source => "http://gems.github.com"
 
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
