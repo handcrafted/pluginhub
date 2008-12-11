@@ -19,12 +19,34 @@ body { font: 13px Arial, Helvetica, sans-serif; color: #252525; background: #fff
 ----------------------------------------------------- */
 #features { background: #000 url(/images/bg_features_repeat.png) repeat-x; }
 #features .columns { }
-#features > .inner { margin: 0 auto; min-height: 450px; height: auto !important; height: 450px; padding: 40px 0; width: 980px; }
-#features .column { display: inline; float: left; min-height: 450px; height: auto !important; height: 450px; width: 490px; }
+#features > .inner { margin: 0 auto; padding: 40px 0; width: 980px; }
+#features .column { display: inline; float: left; width: 460px; }
 #features .column > .inner {  }
-#features .column.one {  }
-#features .column.two {  }
+#features .column .block { margin-bottom: 40px; }
+#features .column .block.feature { padding-left: 68px; }
+#features .column .block.track { background: url(/images/icons/48/clipboard.png) no-repeat; }
+#features .column .block.rate { background: url(/images/icons/48/star.png) no-repeat; }
+#features .column .block.discover { background: url(/images/icons/48/magic.png) no-repeat; }
+#features .column .block.inform { background: url(/images/icons/48/bullhorn.png) no-repeat; }
+#features .column .block.signup { position: relative; }
+#features .column .block.signup img { position: absolute; top: 0; left: -60px; }
+#features .column .block.signup p { font-size: 12px; margin-bottom: 15px; }
+#features .column .block.signup input { font-family: Arial, sans-serif; font-size: 12px; padding: 9px; }
+#features .column .block.signup input[type="text"] { border: 1px solid #888; width: 305px; }
+#features .column .block.signup input[type="submit"] { background: #6d9e2d url(/images/bg_signup_submit.png) repeat-x 0 top; border: 1px solid #608925; color: #fff; font-weight: bold; margin-left: -5px; padding: 8px 25px; text-transform: uppercase; }
+#features .column .block.signup input[type="submit"]:hover { cursor: pointer; }
 
+
+#features .column.one {  }
+#features .column.two { margin-left: 30px; }
+#features .column h2 { color: #fff; font-size: 20px; font-weight: normal; margin-bottom: 5px; }
+#features .column p { color: #888; font-size: 14px; line-height: 1.4; margin-bottom: 0; }
+
+/* -----------------------------------------------------
+	Form
+----------------------------------------------------- */
+fieldset { border: none; }
+legend { display: none; }
 
 /* -----------------------------------------------------
 	Images

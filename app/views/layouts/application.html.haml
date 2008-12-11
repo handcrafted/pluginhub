@@ -16,17 +16,37 @@
       .inner.clearfix
         .column.one
           .inner
-            .block
+            .block.feature.track
               %h2
-                Blah
+                Track changes to your favorite plugins
               %p
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                The vitality of conceptual synergies is of supreme importance whenever single-loop learning strategies go wrong, in order to build a shared view of what can be improved. The components and priorities for the change program.
+            .block.feature.rate
+              %h2
+                Rate your favorite plugins
+              %p
+                The vitality of conceptual synergies is of supreme importance whenever single-loop learning strategies go wrong, in order to build a shared view of what can be improved. The components and priorities for the change program.
+            .block.signup
+              = image_tag("/images/icons/48/traffic_light.png")
+              %h2
+                Sign up to get notified when we launch!
+              %p
+                Our doors open soon. Join the mailing list and we'll tell you when to come back.
+              %form{:action => "/"}
+                %fieldset
+                  %legend Sign up for the Pluginhub mailing list
+                  .row
+                    %input{:type => "text"}
+                    %input{:type => "submit", :value => "Sign me up"}
         .column.two
           .inner
-            .block
+            .block.feature.discover
               %h2
-                Blah
+                Discover plugins you never knew existed
               %p
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-
+                The vitality of conceptual synergies is of supreme importance whenever single-loop learning strategies go wrong, in order to build a shared view of what can be improved. The components and priorities for the change program.
+            .block.feature.inform
+              %h2
+                Inform the community about updates
+              %p
+                The vitality of conceptual synergies is of supreme importance whenever single-loop learning strategies go wrong, in order to build a shared view of what can be improved. The components and priorities for the change program.
