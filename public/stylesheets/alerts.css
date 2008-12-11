@@ -1,0 +1,31 @@
+/* -----------------------------------------------------
+	Flashes
+----------------------------------------------------- */
+#warning,
+#notice { position: absolute; top: 97px; font-size: 14px; font-weight: bold; width: 100%; }
+#warning { color: #FFDEDF; }
+#notice { color: #242424; }
+/* -- [Wrap] -- */
+#warning_wrap,
+#notice_wrap { }
+/* -- [Paragraphs] -- */
+#warning_wrap p,
+#notice_wrap p { margin: 0; padding: 0; text-align: center; }
+#warning_wrap p span,
+#notice_wrap p span { margin: 0; padding: 3px 8px; }
+#warning_wrap p span { background: #CC0000; }
+#notice_wrap p span { background: #FFF1A8; }
+/* -- [Links] -- */
+#warning_wrap a,
+#notice_wrap a { padding: 0 5px; text-decoration: underline; }
+#warning_wrap a { color: #fff; }
+#notice_wrap a { color: #CC0000; }
+
+/* -----------------------------------------------------
+	Form Notices
+----------------------------------------------------- */
+div#errorExplanation { background: #c00; border: 3px solid #b00000; color: #fff; margin: 0px 10px 15px 0; padding: 10px 15px; }
+div#errorExplanation h2 { border-bottom: 1px solid #b00000; color: #fff; font-size: 16px; margin-bottom: 7px; }
+div#errorExplanation p { font-size: 12px; }
+div#errorExplanation ul { margin: 10px 0; padding: 0 0 0 14px; }
+div#errorExplanation ul li { font-size: 12px; margin-bottom: 5px; line-height: 1.5; }
