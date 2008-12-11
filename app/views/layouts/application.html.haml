@@ -2,14 +2,14 @@
 = render :partial => "layouts/meta_signature"
 %html{:xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", :'xml:lang' => "en"}
   %head
-    %title Pluginhub - Track, rate and discover plugins for Rails, Merb, TextMate, jQuery and more.
+    %title PluginHub - Track, rate and discover plugins for Rails, Merb, TextMate, jQuery and more.
     %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
     %meta{:name => "lang", :content => "en"}
     = stylesheet_link_tag 'style','alerts' , :cache => "pluginhub_css"
   %body
     #mast_head.clearfix
       %p#branding
-        = link_to "Pluginhub - Plugin Directory", root_url, :rel => "home"
+        = link_to "PluginHub - Plugin Directory", root_url, :rel => "home"
       %h1#tagline
         It just became so simple to track, rate and discover plugins for Rails, Merb, TextMate, jQuery and more.
     #features.columns
@@ -34,7 +34,7 @@
                 Our doors open soon. Join the mailing list and we'll tell you when to come back.
               %form{:action => "http://sendmail.gethandcrafted.com/t/r/s/mciu/", :method => "post"}
                 %fieldset
-                  %legend Sign up for the Pluginhub mailing list
+                  %legend Sign up for the PluginHub mailing list
                   .row
                     %label{:for => "mciu-mciu"} Email: 
                     %input{:type => "text", :name => "cm-mciu-mciu", :id => "mciu-mciu"}
@@ -57,7 +57,7 @@
           .block.who
             .inner
               %h2
-                Who's behind Pluginhub?
+                Who's behind PluginHub?
               %p
                 = "#{link_to "Handcrafted is a Rails development firm", "http://gethandcrafted.com/"} focused on creating applications built on a foundation of beautiful, maintainable, extensible, handcrafted code. Besides developing their own products, Handcrafted helps clients large and small to brainstorm, develop, design and refine theirs."
               = image_tag("/images/pluginhub_screenshot_1.png")

@@ -10,7 +10,7 @@ body { font: 13px Arial, Helvetica, sans-serif; color: #252525; background: #fff
 ----------------------------------------------------- */
 #mast_head { margin: 0 auto; padding: 20px 0; width: 980px; }
 #branding,
-#tagline { display: inline; float: left; text-indent: -999999px; }
+#tagline { display: inline; float: left; text-indent: -99999px; }
 #branding { background: url(/images/logo_pluginhub.png) no-repeat 0 50%; border-right: 1px solid #ccc; height: 58px; padding: 10px 0; width: 242px; }
 #tagline { background: url(/images/tagline_mast_head.png) no-repeat 0 50%; display: block; height: 58px; margin-left: 30px; padding: 10px 0; width: 607px; }
 
@@ -63,7 +63,7 @@ border: 1px solid #608925; color: #fff; font-weight: bold; margin-left: -5px; pa
 /* -- [Block Styles] -- */
 #lower .block.who { background: #e2e2e2 url(/images/avatar_handcrafted.png) no-repeat right bottom; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
 #lower .block.who > .inner { padding: 20px; position: relative; }
-#lower .block.who > .inner img { position: absolute; top: -155px; right: -510px; }
+#lower .block.who > .inner img { position: absolute; top: -155px; right: -520px; }
 /* -- [Formatting] -- */
 #lower .column h2 { color: #252525; font-size: 20px; font-weight: normal; margin-bottom: 5px; }
 #lower .column p { color: #555; font-size: 12px; line-height: 1.4; margin-right: 55px; }
