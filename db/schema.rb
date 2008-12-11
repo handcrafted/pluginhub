@@ -32,8 +32,8 @@ ActiveRecord::Schema.define(:version => 20081210135259) do
     t.datetime "updated_at"
   end
 
-  add_index "slugs", ["name", "sluggable_type"], :name => "index_slugs_on_name_and_sluggable_type", :unique => true
   add_index "slugs", ["sluggable_id"], :name => "index_slugs_on_sluggable_id"
+  add_index "slugs", ["name", "sluggable_type"], :name => "index_slugs_on_name_and_sluggable_type", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "login"

@@ -1,0 +1,65 @@
+/* -----------------------------------------------------
+	Base
+----------------------------------------------------- */
+* { margin: 0; padding: 0; }
+html, body { height: 100%; margin: 0 0 1px 0; padding: 0; }
+body { font: 13px Arial, Helvetica, sans-serif; color: #252525; background: #fff; }
+
+/* -----------------------------------------------------
+	Structure
+----------------------------------------------------- */
+#mast_head { margin: 0 auto; padding: 20px 0; width: 980px; }
+#branding,
+#tagline { display: inline; float: left; text-indent: -999999px; }
+#branding { background: url(/images/logo_pluginhub.png) no-repeat 0 50%; border-right: 1px solid #ccc; height: 58px; padding: 10px 0; width: 242px; }
+#tagline { background: url(/images/tagline_mast_head.png) no-repeat 0 50%; display: block; height: 58px; margin-left: 30px; padding: 10px 0; width: 607px; }
+
+/* -----------------------------------------------------
+	Features
+----------------------------------------------------- */
+#features { background: #000 url(/images/bg_features_repeat.png) repeat-x; }
+#features .columns { }
+#features > .inner { margin: 0 auto; min-height: 450px; height: auto !important; height: 450px; padding: 40px 0; width: 980px; }
+#features .column { display: inline; float: left; min-height: 450px; height: auto !important; height: 450px; width: 490px; }
+#features .column > .inner {  }
+#features .column.one {  }
+#features .column.two {  }
+
+
+/* -----------------------------------------------------
+	Images
+----------------------------------------------------- */
+a img { border: none; }
+p img { padding: 0; max-width: 100%; }
+img.centered { display: block; margin: 15px auto; padding: 0; }
+img.alignright { display: inline; margin: 15px 20px; }
+img.alignleft { display: inline; margin: 15px 20px; }
+.alignright { float: right; }
+.alignleft { float: left; }
+
+/* -----------------------------------------------------
+	Links
+----------------------------------------------------- */
+a { color: #258; text-decoration: none; }
+a:hover { color: #933; text-decoration: underline; }
+a:focus, a:active { outline: none; }
+
+/* -----------------------------------------------------
+	Common, Misc...
+----------------------------------------------------- */
+.hidden, hr { display: none; }
+.clear { clear: both; }
+
+/* -----------------------------------------------------
+	P.I.E. FLOAT CLEARING
+	www.positioniseverything.net/easyclearing.html
+----------------------------------------------------- */
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+/* Fixes IE/Mac */
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

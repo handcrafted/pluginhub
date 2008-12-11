@@ -1,0 +1,32 @@
+!!! Strict
+= render :partial => "layouts/meta_signature"
+%html{:xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", :'xml:lang' => "en"}
+  %head
+    %title Pluginhub - Plugin Directory
+    %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "lang", :content => "en"}
+    = stylesheet_link_tag 'style','alerts' , :cache => "pluginhub_css"
+  %body
+    #mast_head.clearfix
+      %p#branding
+        Pluginhub
+      %p#tagline
+        It just became so simple to track, rate and discover plugins for Rails, Merb, TextMate, jQuery and more.
+    #features.columns
+      .inner.clearfix
+        .column.one
+          .inner
+            .block
+              %h2
+                Blah
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        .column.two
+          .inner
+            .block
+              %h2
+                Blah
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+
