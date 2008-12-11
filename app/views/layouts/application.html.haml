@@ -9,7 +9,7 @@
   %body
     #mast_head.clearfix
       %p#branding
-        Pluginhub
+        = link_to "Pluginhub", root_url, :rel => "home"
       %p#tagline
         It just became so simple to track, rate and discover plugins for Rails, Merb, TextMate, jQuery and more.
     #features.columns
@@ -32,11 +32,12 @@
                 Sign up to get notified when we launch!
               %p
                 Our doors open soon. Join the mailing list and we'll tell you when to come back.
-              %form{:action => "/"}
+              %form{:action => "http://sendmail.gethandcrafted.com/t/r/s/mciu/", :method => "post"}
                 %fieldset
                   %legend Sign up for the Pluginhub mailing list
                   .row
-                    %input{:type => "text"}
+                    %label{:for => "mciu-mciu"} Email: 
+                    %input{:type => "text", :name => "cm-mciu-mciu", :id => "mciu-mciu"}
                     %input{:type => "submit", :value => "Sign me up"}
         .column.two
           .inner
@@ -58,6 +59,9 @@
               %h2
                 Who's behind Pluginhub?
               %p
-                Handcrafted is a small Rails development firm focused on creating applications built on a foundation of beautiful, maintainable, extensible, handcrafted code. Besides developing their own products, Handcrafted helps clients large and small to brainstorm, develop, design and refine theirs.
+                = "#{link_to "Handcrafted is a Rails development firm", "http://gethandcrafted.com/"} focused on creating applications built on a foundation of beautiful, maintainable, extensible, handcrafted code. Besides developing their own products, Handcrafted helps clients large and small to brainstorm, develop, design and refine theirs."
               = image_tag("/images/pluginhub_screenshot_1.png")
-        .column.two
+      .footer
+        %p.credits.vcard
+          = "&copy; 2008 #{link_to "Handcrafted", "http://gethandcrafted.com/", :class => "fn org url"}, All Rights Reserved."
+    = render :partial => "shared/google_analytics"
