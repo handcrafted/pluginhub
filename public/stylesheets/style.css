@@ -17,7 +17,7 @@ body { font: 13px Arial, Helvetica, sans-serif; color: #252525; background: #fff
 /* -----------------------------------------------------
 	Features
 ----------------------------------------------------- */
-#features { background: #000 url(/images/bg_features_repeat.png) repeat-x; }
+#features { background: #000 url(/images/bg_features_repeat.png) repeat-x; border-top: 4px solid #303030; }
 #features > .inner { margin: 0 auto; padding: 40px 0; width: 980px; }
 #features .columns {  }
 #features .column { display: inline; float: left; width: 460px; }
