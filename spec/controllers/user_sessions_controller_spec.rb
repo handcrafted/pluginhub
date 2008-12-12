@@ -14,18 +14,26 @@ describe UserSessionsController do
       response.should be_success
     end
   end
-
-  describe "GET 'create'" do
-    it "should be successful" do
-      get 'create'
-      response.should be_success
+  
+  describe "with a login" do
+    before do
+      @user = Factory(:user)
     end
+    
+    describe "GET 'create'" do
+      it "should be successful" do
+        post 'create', :user_session => {:login => @user.login, :password => "Tester1"}
+        response.should be_redirect
+      end
+    end
+
+    describe "GET 'destroy'" do
+      it "should be successful" do
+        delete 'destroy'
+        response.should be_redirect
+      end
+    end
+    
   end
 
-  describe "GET 'destroy'" do
-    it "should be successful" do
-      get 'destroy'
-      response.should be_success
-    end
-  end
 end
