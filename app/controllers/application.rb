@@ -2,6 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  before_filter :activate_authlogic
   helper :all # include all helpers, all the time
   protect_from_forgery # :secret => '7c51d030c240de5274aba85de410e8bb'
   
