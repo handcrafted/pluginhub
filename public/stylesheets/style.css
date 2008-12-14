@@ -17,7 +17,7 @@ body { font: 13px Arial, Helvetica, sans-serif; color: #252525; background: #fff
 /* -----------------------------------------------------
 	Features
 ----------------------------------------------------- */
-#features { background: #000 url(/images/bg_features_repeat.png) repeat-x; border-top: 4px solid #303030; }
+#features { background: #000 url(/images/bg_features_repeat.png) repeat-x; border-top: 4px solid #252525; }
 #features > .inner { margin: 0 auto; padding: 40px 0; width: 980px; }
 #features .columns {  }
 #features .column { display: inline; float: left; width: 460px; }
@@ -46,7 +46,7 @@ border-bottom-right-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-bo
 border: 1px solid #608925; color: #fff; font-weight: bold; margin-left: -5px; padding: 8px 25px; text-transform: uppercase; }
 #features .block.signup input[type="submit"]:hover { cursor: pointer; }
 /* -- [Formatting] -- */
-#features .column h2 { color: #fff; font-size: 20px; font-weight: normal; margin-bottom: 5px; }
+#features .column h2 { color: #fff; font-family: Helvetica, Verdana, Arial, sans-serif;font-size: 20px; font-weight: normal; margin-bottom: 5px; }
 #features .column p { color: #888; font-size: 14px; line-height: 1.4; margin-bottom: 0; }
 
 /* -----------------------------------------------------
